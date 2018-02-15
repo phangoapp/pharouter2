@@ -1,0 +1,20 @@
+{
+    "name": "phangoapp/pharouter2",
+    "description": "Better routing, inspired for bottlepy and flask without additional overhead in PHP model",
+    "require-dev": {
+        "phpunit/phpunit": "~4.8@dev"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Antonio de la Rosa",
+            "email": "webmaster@web-t-sys.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "PhangoApp\\PhaRouter2\\": "src"
+        }
+    }
+}
